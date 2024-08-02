@@ -68,7 +68,7 @@ until nadeo release tools or documentation for skin creation, this is needed for
 
 requirements:
 - python 3.11
-- gbx-py
+- gbx-py (dev branch)
 - construct
 
 i will release an executable packaged with python runtime, etc so you dont have to install dependencies
