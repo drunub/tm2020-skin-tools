@@ -11,6 +11,8 @@ all these tools are intended to be used with each other. boner.py and fakeshad.p
 
 it's possible the specific use or behaviour of these will change in the future, but i will keep the readme up to date
 
+the blender scripts were created with blender 4.3 nightly, but the 4.x versions before will work, and probably some of the later 3.x versions
+
 damage models should be possible, but not sure exactly how atm (i think it's the secondary positions "Position1" in the vertex streams)
 
 if you have any questions pls feel free to message me on telegram, twitter, or discord by the same name
