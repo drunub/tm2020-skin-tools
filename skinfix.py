@@ -1,7 +1,6 @@
-from gbx_py import GbxStruct, GbxStructWithoutBodyParsed
-from gbx_py import parse_file, generate_file
+from gbx_py.gbx_structs import GbxStruct, GbxStructWithoutBodyParsed
+from gbx_py.parser import parse_file, generate_file
 from construct import ListContainer, Container, Array
-import sys
 import re
 import argparse
 from math import log2
