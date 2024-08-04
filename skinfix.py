@@ -4,6 +4,7 @@ from construct import ListContainer, Container, Array
 import re
 import argparse
 from math import log2
+import sys
 
 mat_pattern = re.compile(r"(?:_lod(\d+))?(_?)$")
 
@@ -98,7 +99,7 @@ lods = set()
 
 if not solid2.customMaterials:
     print("Nothing to do - no custom materials")
-    quit()
+    sys.exit()
 
 
 for g in solid2.shadedGeoms[:]:
