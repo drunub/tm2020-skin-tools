@@ -102,9 +102,8 @@ if not solid2.customMaterials:
     quit()
 
 
-for g in solid2.shadedGeoms:
+for g in solid2.shadedGeoms[:]:
     mat_idx = g.materialIndex
-    
     
     mat = solid2.customMaterials[mat_idx].materialUserInst.body[0x90fd000].materialName
     vis_idx = g.visualIndex
