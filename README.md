@@ -2,7 +2,7 @@
 
 documentation of findings and collection of tools/scripts i created that allow and ease the creation of 3d trackmania 2020 skins
 
-**most of this isn't official or standard (especially what skinfix.py does), it was just a hacky way to get 3d skins working. it might not work forever, it might crash your game etc. please don't abuse it****
+**most of this isn't official or standard (especially what skinfix.py does), it was just a hacky way to get 3d skins working. it might not work forever, it might crash your game etc. please don't abuse it**
 
 it's possible the use or behaviour of these will change in the future, but i will try to keep the readme up to date
 
