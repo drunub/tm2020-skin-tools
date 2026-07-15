@@ -183,7 +183,7 @@ def fix_skin(file_in=None, file_out=None, lod_dists=None):
                 Container(modelIndex=model_index, socketIndex=sock_idx)
             )
     
-    solid2.lodDistances = lod_dists[4-min(4, len(lods)):]
+    solid2.lodDistances = lod_dists[4-min(4, len(lods)-1):]
 
     solid2.listVersion02 = 10
     solid2.materials = []
